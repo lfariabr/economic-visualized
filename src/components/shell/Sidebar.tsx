@@ -18,7 +18,7 @@ export function Sidebar() {
         <Logo />
         <div className="leading-tight">
           <div className="text-sm font-semibold">Economia, visualizada</div>
-          <div className="text-xs text-muted">Brasil · 12 capítulos interativos</div>
+          <div className="text-xs text-muted">Brasil · 14 capítulos interativos</div>
         </div>
       </Link>
       <nav className="flex flex-col gap-0.5 overflow-y-auto">

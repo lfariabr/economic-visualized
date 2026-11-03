@@ -1,3 +1,5 @@
+import { inadimplencia } from "./inadimplencia";
+import { programas } from "./programas";
 import { moeda } from "./moeda";
 import { inflacao } from "./inflacao";
 import { alimentos } from "./alimentos";
@@ -11,4 +13,4 @@ import { pib } from "./pib";
 import { simulador } from "./simulador";
 import { historia } from "./historia";
 
-export const CHAPTERS = [moeda, inflacao, alimentos, selic, juros, phillips, cambio, laffer, divida, pib, simulador, historia];
+export const CHAPTERS = [moeda, inflacao, alimentos, selic, juros, phillips, cambio, laffer, divida, pib, simulador, historia, inadimplencia, programas];

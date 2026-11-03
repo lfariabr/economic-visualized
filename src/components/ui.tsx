@@ -190,7 +190,7 @@ export function Slider({
 }) {
   return (
     <label className={clsx("flex min-w-0 items-center gap-3 text-sm", className)}>
-      <span className="min-w-0 shrink text-muted">{label}</span>
+      <span className="min-w-[4.5rem] shrink text-muted">{label}</span>
       <input
         type="range"
         min={min}

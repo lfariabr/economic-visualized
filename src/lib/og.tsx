@@ -32,7 +32,7 @@ export async function ogImage(chapter?: ChapterKey) {
       >
         {/* faint log of records along the right edge */}
         <div style={{ position: "absolute", right: 72, top: 64, display: "flex", gap: 8 }}>
-          {Array.from({ length: 12 }, (_, i) => (
+          {Array.from({ length: chapters.length }, (_, i) => (
             <div
               key={i}
               style={{
@@ -40,7 +40,7 @@ export async function ogImage(chapter?: ChapterKey) {
                 height: 22,
                 borderRadius: 5,
                 background: CHAPTER_COLOR[chapters[i].chapter!],
-                opacity: chapter ? (chapters[i].chapter === chapter ? 1 : 0.18) : 0.25 + (i / 12) * 0.75,
+                opacity: chapter ? (chapters[i].chapter === chapter ? 1 : 0.18) : 0.25 + (i / chapters.length) * 0.75,
               }}
             />
           ))}

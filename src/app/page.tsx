@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <header className="mb-10 max-w-3xl animate-rise">
-        <div className="mb-2 font-mono text-xs text-accent">economia brasileira · 12 capítulos interativos</div>
+        <div className="mb-2 font-mono text-xs text-accent">economia brasileira · 14 capítulos interativos</div>
         <h1 className="text-4xl font-semibold tracking-tight text-balance">Economia, visualizada</h1>
         <p className="mt-4 text-[15px] leading-relaxed text-muted text-pretty">
           Selic, dólar, inflação, preço dos alimentos, CDI, dívida pública, curva de Laffer. Em vez de explicar com

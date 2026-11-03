@@ -19,7 +19,9 @@ Modelos econômicos interativos com foco no Brasil. Cada capítulo é uma págin
 | 10 | [PIB & crescimento](https://economic-visualized.vercel.app/pib) | Multiplicador, IS-LM, Solow, bônus demográfico, Gini |
 | 11 | [Simulador Brasil](https://economic-visualized.vercel.app/simulador) | Você é o governo e o BC: 10 anos, choques e cenários |
 | 12 | [Brasil 1980–2026](https://economic-visualized.vercel.app/historia) | Séries históricas, planos econômicos, crises |
-| 13 | [Glossário](https://economic-visualized.vercel.app/glossario) | Todos os conceitos, pesquisáveis |
+| 13 | [Inadimplência & Desenrola](https://economic-visualized.vercel.app/inadimplencia) | Simulador de inadimplência com famílias, rodadas do Desenrola, risco moral, seleção adversa |
+| 14 | [Programas sociais & subsídios](https://economic-visualized.vercel.app/programas) | Bolsa Família, vale-gás, gastos tributários ("bolsa empresário"), BNDES, subsídio a combustível, alocador de orçamento |
+| 15 | [Glossário](https://economic-visualized.vercel.app/glossario) | Todos os conceitos, pesquisáveis |
 
 ## Rodar
 

@@ -10,7 +10,9 @@ export type ChapterKey =
   | "divida"
   | "pib"
   | "simulador"
-  | "historia";
+  | "historia"
+  | "inadimplencia"
+  | "programas";
 
 export const CHAPTER_COLOR: Record<ChapterKey, string> = {
   // I — Moeda e preços: amarelos/laranjas
@@ -30,6 +32,9 @@ export const CHAPTER_COLOR: Record<ChapterKey, string> = {
   // V — Juntando tudo: verdes/violeta
   simulador: "#4ade80",
   historia: "#a78bfa",
+  // VI — Políticas públicas
+  inadimplencia: "#f472b6",
+  programas: "#c084fc",
 };
 
 export type NavItem = {
@@ -55,5 +60,7 @@ export const NAV: NavItem[] = [
   { href: "/pib", label: "PIB & crescimento", blurb: "IS-LM, multiplicador, Solow", n: "10", group: "IV · Estado", chapter: "pib" },
   { href: "/simulador", label: "Simulador Brasil", blurb: "Você é o governo e o BC", n: "11", group: "V · Juntando tudo", chapter: "simulador" },
   { href: "/historia", label: "Brasil 1980–2026", blurb: "Planos, crises, números", n: "12", group: "V · Juntando tudo", chapter: "historia" },
-  { href: "/glossario", label: "Glossário", blurb: "Todos os conceitos", n: "13", group: "Referência", chapter: null },
+  { href: "/inadimplencia", label: "Inadimplência & Desenrola", blurb: "Endividamento, renegociação, risco moral", n: "13", group: "VI · Políticas públicas", chapter: "inadimplencia" },
+  { href: "/programas", label: "Programas sociais & subsídios", blurb: "Bolsa Família, vale-gás, bolsa empresário", n: "14", group: "VI · Políticas públicas", chapter: "programas" },
+  { href: "/glossario", label: "Glossário", blurb: "Todos os conceitos", n: "15", group: "Referência", chapter: null },
 ];
