@@ -95,7 +95,11 @@ export default function Home() {
       <p className="mt-16 max-w-3xl text-xs leading-relaxed text-faint">
         Projeto educativo e independente. Não tem vínculo com o Banco Central, IBGE, Tesouro Nacional ou qualquer
         governo ou partido. Números são aproximados (fontes de referência: IBGE, BCB, Tesouro, Ipeadata, DIEESE) e os
-        modelos são deliberadamente simples. Nada aqui é recomendação de investimento.
+        modelos são deliberadamente simples. Nada aqui é recomendação de investimento. Código aberto (MIT) em{" "}
+        <a href="https://github.com/sibelius/economic-visualized" className="text-muted underline decoration-faint underline-offset-2 hover:text-ink">
+          github.com/sibelius/economic-visualized
+        </a>
+        . Correções e novos modelos são bem-vindos.
       </p>
     </>
   );
